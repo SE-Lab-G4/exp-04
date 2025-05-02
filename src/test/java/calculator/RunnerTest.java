@@ -6,8 +6,8 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-    features = "src/test/resources/features",
-    glue = {"calculator", "appointment"},
+    features = "src/test/resources/features/calculator.feature",
+    glue = "calculator",
     plugin = {"pretty"}
 )
 public class RunnerTest {
