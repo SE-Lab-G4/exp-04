@@ -68,10 +68,26 @@ src/
     │       └── RunnerTest.java
     └── resources/
         └── features/
+
             └── appointment.feature
 ```
 
 ---
 
- با انجام تمامی مراحل بالا، پیاده‌سازی مسئله مطابق با مستند آموزشی و نیازمندی مسئله دوم انجام شد و کلیه تست‌ها با موفقیت پاس شدند.
+ ##  نحوه اجرای پروژه
+
+### پیش‌نیازها:
+- Java JDK (ترجیحاً 17 یا 21)
+- Maven
+
+### اجرای تست‌ها:
+
+در root پروژه، دستور زیر را اجرا کنید:
+
+```bash
+mvn clean test
+```
+
+تمامی سناریوهای تعریف‌شده با استفاده از Cucumber و JUnit اجرا می‌شوند و نتایج در ترمینال قابل مشاهده است.
+ لینک پروژه: [SE-Lab-G4/exp-04 (Branch: final-merge-test)](https://github.com/SE-Lab-G4/exp-04/tree/final-merge-test)
 
